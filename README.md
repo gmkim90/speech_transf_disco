@@ -10,6 +10,13 @@ v1 :
   - Linear Spectrogram magnitude
   - 257frames x 257fftpoint --> resized to 64x64 (in paper)
   
+Dataset
+- please download dataset from the link below and put them in data/
+v1 : 257x257 spectrogram patch (link : ______________________________ )
+
+
+Quick run
+python main.py --dataset 'chime3_257' --grayImage True
   
 Result 
  - learning progress by saving A, AB, B, BA image for every 500 iters
